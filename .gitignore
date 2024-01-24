@@ -37,4 +37,4 @@ out/
 .vscode/
 
 # Project exclude paths
-/food/dist/
+/Documentation/
