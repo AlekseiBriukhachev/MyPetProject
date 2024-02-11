@@ -30,7 +30,7 @@ gulp.task('json-server', () => {
 
 gulp.task("build-js", () => {
 	return gulp
-		.src("./src/js/main.js")
+		.src("./src/js/script.js")
 		.pipe(
 			webpack({
 				mode: "development",
@@ -110,7 +110,7 @@ gulp.task("prod", () => {
 	gulp.src("./src/icons/**/*.*").pipe(gulp.dest(dist + "/icons"));
 
 	gulp
-		.src("./src/js/main.js")
+		.src("./src/js/script.js")
 		.pipe(
 			webpack({
 				mode: "production",
